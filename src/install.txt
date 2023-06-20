@@ -1,0 +1,5 @@
+First, update opam by calling "opam update" from an ubuntu terminal.
+Then, if it asks you to upgrade existing packages call "opam upgrade".
+Install the necessary packages by calling 
+"opam install ANSITerminal odoc ocamlformat-rpc".
+Finally, run our system by calling "make risk".

@@ -1,0 +1,529 @@
+{
+  "continents": [
+    {
+      "id": "South America",
+      "territories": [
+        {
+          "tname": "Venezuela",
+          "continent": "South America",
+          "neighbors": [
+            "Peru",
+            "Brazil",
+            "Central America"
+          ],
+          "owned": "none",
+          "troops": 35
+        },
+        {
+          "tname": "Peru",
+          "continent": "South America",
+          "neighbors": [
+            "Venezuela",
+            "Brazil",
+            "Argentina"
+          ],
+          "owned": "none",
+          "troops": 35
+        },
+        {
+          "tname": "Brazil",
+          "continent": "South America",
+          "neighbors": [
+            "Venezuela",
+            "Peru",
+            "Argentina",
+            "North Africa"
+          ],
+          "owned": "none",
+          "troops": 25
+        },
+        {
+          "tname": "Argentina",
+          "continent": "South America",
+          "neighbors": [
+            "Peru",
+            "Brazil"
+          ],
+          "owned": "none",
+          "troops": 10
+        }
+      ]
+    },
+    {
+      "id": "Asia",
+      "territories": [
+        {
+          "tname": "Siam",
+          "continent": "Asia",
+          "neighbors": [
+            "India",
+            "China",
+            "Indonesia"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "India",
+          "continent": "Asia",
+          "neighbors": [
+            "Siam",
+            "Middle East",
+            "Afghanistan",
+            "China"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Middle East",
+          "continent": "Asia",
+          "neighbors": [
+            "India",
+            "Afghanistan",
+            "Ukraine",
+            "Southern Europe",
+            "Egypt",
+            "East Africa"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Afghanistan",
+          "continent": "Asia",
+          "neighbors": [
+            "Middle East",
+            "India",
+            "China",
+            "Ural",
+            "Ukraine"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "China",
+          "continent": "Asia",
+          "neighbors": [
+            "Siam",
+            "India",
+            "Afghanistan",
+            "Ural",
+            "Siberia",
+            "Mongolia"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Mongolia",
+          "continent": "Asia",
+          "neighbors": [
+            "Irkutsk",
+            "Siberia",
+            "China",
+            "Kamchatka",
+            "Japan"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Ural",
+          "continent": "Asia",
+          "neighbors": [
+            "Afghanistan",
+            "Siberia",
+            "China",
+            "Ukraine"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Siberia",
+          "continent": "Asia",
+          "neighbors": [
+            "Irkutsk",
+            "Mongolia",
+            "China",
+            "Ural",
+            "Yakutsk"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Yakutsk",
+          "continent": "Asia",
+          "neighbors": [
+            "Siberia",
+            "Irkutsk",
+            "Kamchatka"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Irkutsk",
+          "continent": "Asia",
+          "neighbors": [
+            "Siberia",
+            "Yakutsk",
+            "Mongolia",
+            "Kamchatka"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Kamchatka",
+          "continent": "Asia",
+          "neighbors": [
+            "Yakutsk",
+            "Irkutsk",
+            "Mongolia",
+            "Japan"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Japan",
+          "continent": "Asia",
+          "neighbors": [
+            "Irkutsk",
+            "Siberia",
+            "China",
+            "Kamchatka",
+            "Japan"
+          ],
+          "owned": "none",
+          "troops": 10
+        }
+      ]
+    },
+    {
+      "id": "Africa",
+      "territories": [
+        {
+          "tname": "North Africa",
+          "continent": "Africa",
+          "neighbors": [
+            "Egypt",
+            "East Africa",
+            "Congo",
+            "Western Europe",
+            "Southern Europe",
+            "Brazil"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Egypt",
+          "continent": "Africa",
+          "neighbors": [
+            "North Africa",
+            "East Africa",
+            "Southern Europe",
+            "Middle East"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "East Africa",
+          "continent": "Africa",
+          "neighbors": [
+            "Egypt",
+            "North Africa",
+            "Congo",
+            "South Africa",
+            "Madagascar",
+            "Middle East"
+          ],
+          "owned": "none",
+          "troops": 35
+        },
+        {
+          "tname": "Congo",
+          "continent": "Africa",
+          "neighbors": [
+            "North Africa",
+            "East Africa",
+            "South Africa"
+          ],
+          "owned": "none",
+          "troops": 35
+        },
+        {
+          "tname": "South Africa",
+          "continent": "Africa",
+          "neighbors": [
+            "Congo",
+            "East Africa",
+            "Madagascar",
+            "Japan"
+          ],
+          "owned": "none",
+          "troops": 10
+        }
+      ]
+    },
+    {
+      "id": "North America",
+      "territories": [
+        {
+          "tname": "Central America",
+          "continent": "North America",
+          "neighbors": [
+            "Venezuela",
+            "Western US",
+            "Eastern US",
+            "Venezuela"
+          ],
+          "owned": "none",
+          "troops": 0
+        },
+        {
+          "tname": "Eastern US",
+          "continent": "North America",
+          "neighbors": [
+            "Central America",
+            "Western US",
+            "Quebec",
+            "Ontario"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Quebec",
+          "continent": "North America",
+          "neighbors": [
+            "Greenland",
+            "Eastern US",
+            "Ontario"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Ontario",
+          "continent": "North America",
+          "neighbors": [
+            "Quebec",
+            "Greenland",
+            "Eastern US",
+            "Western US",
+            "Alberta",
+            "Northwest Territory"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Western US",
+          "continent": "North America",
+          "neighbors": [
+            "Eastern US",
+            "Alberta",
+            "Ontario",
+            "Central America"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Alberta",
+          "continent": "North America",
+          "neighbors": [
+            "Alaska",
+            "Northwest Territory",
+            "Ontario",
+            "Western US"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Alaska",
+          "continent": "North America",
+          "neighbors": [
+            "Alberta",
+            "Northwest Territory",
+            "Kamchatka"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Greenland",
+          "continent": "North America",
+          "neighbors": [
+            "Iceland",
+            "Northwest Territory",
+            "Quebec",
+            "Ontario",
+            "Iceland"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Northwest Territory",
+          "continent": "North America",
+          "neighbors": [
+            "Alaska",
+            "Greenland",
+            "Ontario",
+            "Alberta"
+          ],
+          "owned": "none",
+          "troops": 10
+        }
+      ]
+    },
+    {
+      "id": "Australia",
+      "territories": [
+        {
+          "tname": "Eastern Australia",
+          "continent": "Australia",
+          "neighbors": [
+            "Western Australia",
+            "New Guinea"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Western Australia",
+          "continent": "Australia",
+          "neighbors": [
+            "Eastern Australia",
+            "Indonesia",
+            "New Guinea"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Indonesia",
+          "continent": "Australia",
+          "neighbors": [
+            "Western Australia",
+            "New Guinea",
+            "Siam"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "New Guinea",
+          "continent": "Australia",
+          "neighbors": [
+            "Eastern Australia",
+            "Western Australia",
+            "Indonesia"
+          ],
+          "owned": "none",
+          "troops": 10
+        }
+      ]
+    },
+    {
+      "id": "Europe",
+      "territories": [
+        {
+          "tname": "Ukraine",
+          "continent": "Europe",
+          "neighbors": [
+            "Scandinavia",
+            "Northern Europe",
+            "Southern Europe",
+            "Ural",
+            "Afghanistan",
+            "Middle East"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Scandinavia",
+          "continent": "Europe",
+          "neighbors": [
+            "Ukraine",
+            "Iceland",
+            "Northern Europe",
+            "Great Britain"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Iceland",
+          "continent": "Europe",
+          "neighbors": [
+            "Scandinavia",
+            "Great Britain",
+            "Greenland"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Great Britain",
+          "continent": "Europe",
+          "neighbors": [
+            "Iceland",
+            "Northern Europe",
+            "Western Europe"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Northern Europe",
+          "continent": "Europe",
+          "neighbors": [
+            "Ukraine",
+            "Scandinavia",
+            "Great Britain",
+            "Western Europe",
+            "Southern Europe"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Western Europe",
+          "continent": "Europe",
+          "neighbors": [
+            "Great Britain",
+            "Northern Europe",
+            "Southern Europe",
+            "North Africa"
+          ],
+          "owned": "none",
+          "troops": 10
+        },
+        {
+          "tname": "Southern Europe",
+          "continent": "Europe",
+          "neighbors": [
+            "Ukraine",
+            "Northern Europe",
+            "Western Europe",
+            "North Africa",
+            "Egypt"
+          ],
+          "owned": "none",
+          "troops": 10
+        }
+      ]
+    }
+  ]
+}
